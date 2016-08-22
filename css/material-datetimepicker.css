@@ -17,6 +17,10 @@ md-dialog.dtp {
     width: 100%;
 }
 
+.dtp .table > thead {
+    background-color: inherit;
+}
+
 .dtp .table > tbody > tr > td,
 .dtp .table > tbody > tr > th,
 .dtp .table > tfoot > tr > td,
@@ -27,6 +31,7 @@ md-dialog.dtp {
     line-height: 1.42857143;
     vertical-align: top;
     border-top: 1px solid #ddd;
+    font-size: 1rem;
 }
 
 .dtp, .dtp * {
