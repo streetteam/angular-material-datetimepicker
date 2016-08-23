@@ -33,9 +33,9 @@
       + '                </div>'
       + '                <div class="dtp-actual-num">{{picker.currentDate.format("DD")}}</div>'
       + '                <div layout="row">'
-      + ' <div ng-click="picker.incrementYear(-1)" class="dtp-year-btn dtp-year-btn-prev" flex="30"><span ng-if="picker.isPreviousYearVisible()" >&#x25B2;</span></div>'
+      + ' <div ng-click="picker.incrementYear(-1)" class="dtp-year-btn dtp-year-btn-prev" flex="30"><span ng-if="picker.isPreviousYearVisible()" >&#x25BC;</span></div>'
       + '                    <div class="dtp-actual-year" flex>{{picker.currentDate.format("YYYY")}}</div>'
-      + ' <div ng-click="picker.incrementYear(1)" class="dtp-year-btn dtp-year-btn-next" flex="30"><span ng-if="picker.isNextYearVisible()" >&#x25BC;</span></div>'
+      + ' <div ng-click="picker.incrementYear(1)" class="dtp-year-btn dtp-year-btn-next" flex="30"><span ng-if="picker.isNextYearVisible()" >&#x25B2;</span></div>'
       + '                </div>'
       + '            </div>'//start time
       + '            <div class="dtp-time" ng-show="picker.params.time && !picker.params.date">'
